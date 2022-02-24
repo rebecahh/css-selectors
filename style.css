@@ -1,0 +1,38 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  color: blueviolet;
+}
+h2{
+  color: cornflowerblue;
+}
+h3{
+  color: darkslateblue;
+}
+
+p:nth-child(3n){
+  background-color: violet;
+}
+
+p.highlight{
+  background-color: yellow;
+}
+a:hover{
+  background-color: yellowgreen;
+}
+p::after{
+  content: "-----end of paragraph";
+  color: seagreen;
+}
+
+div1{
+  background-color: black;
+  padding: 20px;
+  display: none;
+  color: white;
+}
+
+span:hover + div1{
+  display: block;
+}
